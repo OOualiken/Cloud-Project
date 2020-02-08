@@ -1,0 +1,34 @@
+<html>
+<head>
+    <title>Cloud</title>
+    <style>
+       body{
+           background-color: blueviolet;
+       }
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+<body>
+<h1> Welcome to Cloud project </h1>
+<table class="table">
+    <thead>
+    <tr>
+        <th scope="col">#</th>
+        <th scope="col">Temperature</th>
+        <th scope="col">Humidity</th>
+        <th scope="col">Datetime</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#each weathers}}
+        <tr>
+            <th scope="row">{{id}}</th>
+            <td>{{temperature}}</td>
+            <td>{{humidity}}</td>
+            <td>{{datetime}}</td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>
+</body>
+</html>

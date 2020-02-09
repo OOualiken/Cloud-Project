@@ -2,7 +2,7 @@
 
 
 ## Objectif du projet
-Déploiement d'une architecture élastique sur azure en respectant le workflow suivant :
+Déploiement d'une architecture élastique sur azure 
 
 
 ## Prérequis
@@ -12,12 +12,6 @@ Déploiement d'une architecture élastique sur azure en respectant le workflow s
 - Avoir [Node Js ](https://nodejs.org/en/) installer. 
 
 - Créé un compte [azure](https://azure.microsoft.com/fr-fr/account/) .
-
-## Use-case proposé
-
-
-
-
 
 
 ## Usage

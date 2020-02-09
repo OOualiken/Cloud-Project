@@ -24,6 +24,8 @@ Déploiement d'une architecture élastique sur azure en respectant le workflow s
 
 Récupérer les scripts et mettez les dans le répertoire terraform. 
 
+et sur votre terminal lancé 
+
 ```python
 ./tf-init.sh
 ./terraform apply
